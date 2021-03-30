@@ -1,0 +1,182 @@
+.container_fundo{
+    background-color: #eee;
+}
+
+.m{
+    background-image: url(../img/logo-mastercraft.svg);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    z-index: 150;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top:-20px;
+    margin: 0 auto;
+}
+
+.row_fundo .master h1{
+    margin-top: -5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+.row_fundo .master p{
+    color: #aaa;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.master{
+    width: 520px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.master_craft{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+a:first-child{
+    background-color:#157a74 ;
+    color: #fff;
+    border-radius: 30px;;
+    padding:20px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:last-child{
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/icon-bookmark.svg);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.interior_numeros{
+    width: 520px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.interior_numeros p{
+    width: 150px;
+}
+
+.nmr_bold{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ltr_clear{
+    color:#aaa;
+    font-size: 13px;
+    margin-top: -25px;
+    text-align: center;
+}
+
+.linha{
+    background-color: #3cb4ab;
+    height: 10px;
+    width: 520px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.interior{
+    width: 520px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.about h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.about p{
+    font-size: 15px;
+    color: #aaa;
+    line-height: 25px;
+    margin-top: 35px;
+}
+.stand{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.stand p{
+    font-size: 15px;
+    color: #aaa;
+    padding: 10px 25px 0 25px;
+    line-height:25px ;
+    margin: 0 0 0 0;
+}
+
+.bamboo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bamboo h3:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 0 25px;
+    color: #000;
+}
+
+.bamboo h3:last-child{
+    font-size: 15px;
+    padding:20px 25px 0 0;
+    color: #3cb4ab;
+}
+
+.stand_last{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stand_last h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 10px 25px;
+}
+
+.stand_last span{
+    font-size: 15px;
+    color: #aaa;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.stand_last button {
+    width: 170px;
+    height: 50px;
+    background-image: none;
+    background-color:#157a74;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 25px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.transparente{
+    width: inherit;
+    height: inherit;
+    background-color: #eee;
+    opacity: 0.5;
+}

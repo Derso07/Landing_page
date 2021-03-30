@@ -1,0 +1,169 @@
+@media only screen and (min-width: 651px) and (max-width: 959px){
+
+    .titulo h3{
+        margin-left: 50px;
+    }
+
+    .menu ul{
+        margin-right: 150px;
+    }
+}
+
+[data-menu="button"]{
+    display: none;
+}
+
+@media only screen and (max-width:650px){
+
+    .menu ul{
+        display: none;
+    }
+
+    .menu ul li{
+        color: #000;
+        margin: 15px 0;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    [data-menu="button"]{
+        display: inline-block;
+        border: none;
+        right: -450px;
+        top: -45px;
+        position: relative;
+        padding: 10px 20px 15px 3px; 
+        background:local;
+    }
+
+    [data-menu="button"]::before{
+        content: '';
+        display: inline-block;
+        height: 3px;
+        width: 17px;
+        background: #fff;
+        box-shadow: 0 7px #fff, 0 -7px #fff;
+        transition: transform .3s;
+        position: absolute;
+    }
+
+    [data-menu="button"].active::before{
+        transform: rotate(90deg);
+    }
+
+    [data-menu="button"].active{
+
+    }
+
+
+    .menu ul.active{
+        display: block;
+        background-color: #fff;
+        margin: 0 auto;
+        width: 350px;
+        padding: 15px 25px;
+        border-radius: 15px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .row{
+        width: 100%;
+        display: inline-block;
+        
+    }
+
+    .container{
+        background-image: url("../img/capa_mobile.jpg");
+        background-repeat: no-repeat ;
+    }
+
+    .titulo h3{
+        margin-left: 50px;
+    }
+
+  
+    .fundo{
+        width: 400px;
+    }
+
+    .master{
+        width: 400px;
+    }
+
+    .master h1{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .master p{
+        text-align: center;
+        margin: 0 25px;
+    }
+
+    a:first-child{
+        width: 110px;
+        height: 20px;
+        margin: 0 25px;
+        font-size: 15px;
+        padding: 10px 15px 10px;
+    }
+
+    a:last-child{
+        margin: 0 20px;
+        height: 40px;
+        width: 40px;
+        background-position: center;
+    }
+
+    .interior_numeros{
+        display: block;
+        width: 400px;
+        height: 200px;
+        padding-top: 5px;
+    }
+
+    .interior_numeros p{
+        width: auto;
+    }
+
+    .nmr_bold{
+        margin: 35px;
+    }
+
+    .ltr_clear{
+        top: -170px;
+        margin-top: 0;
+        margin-bottom: 55px;
+        position: relative;
+    }
+
+    .linha{
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .about{
+        width: 400px;
+    }
+
+    .about h1{
+        margin-left: 25px;
+    }
+
+    .about p{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .stand{
+        width: 350px;
+        margin-left: 25px;
+    }
+
+    .stand_last{
+        margin-top: 15px;
+    }
+}

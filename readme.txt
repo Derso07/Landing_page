@@ -1,0 +1,1 @@
+Colocando em prática conhecimentos de HTML e CSS, no qual venho estudando. Uma landing page básica, porém pude rever vários conceitos.

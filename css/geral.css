@@ -1,0 +1,27 @@
+.fundo{
+    height:100%;
+    width: 630px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    z-index: 100;
+    position: relative;
+    top:-90px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.container{
+    background-image: url("../img/capa.jpg");
+    background-repeat: no-repeat ;
+    height: 400px;
+    width: 100%;
+}
+
+.row{
+    height: inherit;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
